@@ -1,0 +1,6 @@
+body {
+  font-family: -apple-system, 'Inter', sans-serif;
+}
+.swiper-pagination-bullet-active {
+  background-color: #412B6C!important;
+}

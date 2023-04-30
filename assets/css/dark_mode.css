@@ -17,7 +17,3 @@
 body {
   background: var(--body-bg);
 }
-
-header {
-  background: var(--card-bg);
-}

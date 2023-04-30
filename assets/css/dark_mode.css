@@ -17,3 +17,7 @@
 body {
   background: var(--body-bg);
 }
+
+h1 {
+  color: var(--text-color)
+}

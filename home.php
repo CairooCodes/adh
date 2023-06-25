@@ -1,5 +1,13 @@
+<?php 
+require "db_config.php";
+require "config/helper.php";
+require "config/url.class.php";
+require "./functions/get_data.php";
+$products = getCursos();
+?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <link rel="canonical" href="https://https://demo.themesberg.com/landwind/" />
@@ -47,12 +55,12 @@
         </a>
         <div class="flex items-center lg:order-2 space-x-2">
           <a href="#"
-            class="hidden lg:block text-color1 font-semibold bg-color2 hover:bg-gray-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0">Registre-se
+            class="hidden lg:block text-white font-semibold bg-color1 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0">Registre-se
           </a>
           <div id="theme_toggler">
             <i @click="show = !show" :class="{'hidden': !show, 'block':show }"
-              class="bi bi-moon-stars-fill text-color1"></i>
-            <i @click="show = !show" :class="{'block': !show, 'hidden':show }" class="bi bi-brightness-high-fill"></i>
+              class="bi bi-moon-stars-fill text-color2"></i>
+            <i @click="show = !show" :class="{'block': !show, 'hidden':show }" class="bi text-color1 bi-brightness-high-fill"></i>
           </div>
           <button data-collapse-toggle="mobile-menu-2" type="button"
             class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
@@ -118,73 +126,21 @@
           recentes avanços e pesquisas médicas relacionadas a essas condições</p>
         <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
           <a href="#"
-            class="inline-flex items-center justify-center w-full px-5 py-3 text-sm bg-color2 text-color1 font-bold text-gray-900 border border-gray-200 rounded-lg sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100">
+            class="inline-flex items-center justify-center w-full px-5 py-3 text-sm bg-color1 text-white font-bold text-gray-900 border border-gray-200 rounded-lg sm:w-auto  focus:ring-4 focus:ring-gray-100">
             CURSOS ADH
           </a>
           <a href="https://www.figma.com/community/file/1125744163617429490"
-            class="inline-flex items-center justify-center w-full px-5 py-3 mb-2 mr-2 text-sm font-medium text-white border bg-green-600 border-gray-200 rounded-lg sm:w-auto focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200">
+            class="inline-flex items-center justify-center w-full px-5 py-3 mb-2 mr-2 text-sm font-medium text-white border bg-green-600 border-gray-200 rounded-lg sm:w-auto focus:outline-none focus:z-10 focus:ring-4 focus:ring-gray-200">
             WhatsApp
           </a>
         </div>
       </div>
       <div class="lg:mt-0 lg:col-span-6 lg:flex justify-center p-20">
-        <img class="heart" src="./assets/img/topcoracao.png" alt="ADH" />
+        <img class="" src="./assets/img/git_adh.gif" alt="ADH" />
       </div>
     </div>
   </section>
-  <section class="max-w-screen-xl px-4 py-8 mx-auto lg:py-24 lg:px-6">
-    <h3 class="text-2xl font-bold text-center text-color1">CONFIRA NOSSOS CURSOS</h3>
-    <p class="font-serif text-center text-lg text-color1">Os melhores cursos com espcialistas no assunto</p>
-    <div class="swiper mySwiper pt-10">
-      <div class="swiper-wrapper pb-10">
-        <div class="bg-color1 swiper-slide p-10 items-center shadow rounded-xl h-72">
-          <h1 class="text-white text-center py-2 font-bold">CURSO DE ARRITMIA</h1>
-          <p class="font-serif text-white text-justify">Programa de estudo completo e atualizado para estudantes e
-            profissionais da área de saúde que desejam
-            aprofundar seus conhecimentos nessa condição de saúde.</p>
-        </div>
-        <div class="bg-color1 swiper-slide p-10 items-center shadow rounded-xl h-72">
-          <h1 class="text-white text-center py-2 font-bold">CURSO DE DM</h1>
-          <p class="font-serif text-white text-justify">
-            Profissionais da área de saúde que desejam se especializar em
-            Diabetes Mellitus (DM) e se tornar líderes na luta contra essa doença crônica.</p>
-        </div>
-        <div class="bg-color1 swiper-slide p-10 items-center shadow rounded-xl h-72">
-          <h1 class="text-white text-center py-2 font-bold">CURSO DE HAS</h1>
-          <p class="font-serif text-white text-justify">
-            Durante o curso, você irá aprender sobre a fisiopatologia da HAS, incluindo os mecanismos subjacentes ao
-            aumento da pressão arterial e suas consequências clínicas. Você também irá estudar as diferentes classes de
-            medicamentos anti-hipertensivos e suas aplicações clínicas
-          </p>
-        </div>
-        <div class="bg-color1 swiper-slide p-10 items-center shadow rounded-xl h-72">
-          <h1 class="text-white text-center py-2 font-bold">CURSO DE ARRITMIA</h1>
-          <p class="font-serif text-white text-justify">Programa de estudo completo e atualizado para estudantes e
-            profissionais da área de saúde que desejam
-            aprofundar seus conhecimentos nessa condição de saúde.</p>
-        </div>
-        <div class="bg-color1 swiper-slide p-10 items-center shadow rounded-xl h-72">
-          <h1 class="text-white text-center py-2 font-bold">CURSO DE DM</h1>
-          <p class="font-serif text-white text-justify">
-            Profissionais da área de saúde que desejam se especializar em
-            Diabetes Mellitus (DM) e se tornar líderes na luta contra essa doença crônica.</p>
-        </div>
-        <div class="bg-color1 swiper-slide p-10 items-center shadow rounded-xl h-72">
-          <h1 class="text-white text-center py-2 font-bold">CURSO DE HAS</h1>
-          <p class="font-serif text-white text-justify">
-            Durante o curso, você irá aprender sobre a fisiopatologia da HAS, incluindo os mecanismos subjacentes ao
-            aumento da pressão arterial e suas consequências clínicas. Você também irá estudar as diferentes classes de
-            medicamentos anti-hipertensivos e suas aplicações clínicas
-          </p>
-        </div>
-
-      </div>
-      <div class="text-white swiper-button-next"></div>
-      <div class="text-white swiper-button-prev"></div>
-      <div class="swiper-pagination"></div>
-    </div>
-    </h3>
-  </section>
+  <?php include './components/cursos.php' ?>
   <!-- End block -->
   <!-- Start block -->
   <section>

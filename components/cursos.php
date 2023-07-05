@@ -1,6 +1,6 @@
-<section class="max-w-screen-xl px-4 py-8 mx-auto lg:py-24 lg:px-6">
-    <h3 class="text-2xl font-bold text-center text-color1">CONFIRA NOSSOS CURSOS</h3>
-    <p class="font-serif text-center text-lg text-color1">Os melhores cursos com espcialistas no assunto</p>
+<section class="max-w-screen-xl px-4 mx-auto lg:px-6">
+    <h1 class="text-2xl font-bold text-center">CONFIRA NOSSOS CURSOS</h3>
+    <h2 class="text-center text-lg">Os melhores cursos com espcialistas no assunto</h2>
     <div class="swiper mySwiper pt-10">
         <div class="swiper-wrapper pb-10">
             <?php

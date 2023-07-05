@@ -33,9 +33,9 @@ $products = getCursos();
   <meta property="og:image" content="#">
 
   <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/icon.jpg">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/icon.jpg">
-  <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/icon.jpg">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favicon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon.png">
   <script src="https://cdn.tailwindcss.com"></script>
 
   <link rel="stylesheet" href="./assets/css/style.css">
@@ -55,7 +55,7 @@ $products = getCursos();
         </a>
         <div class="flex items-center lg:order-2 space-x-2">
           <a href="#"
-            class="hidden lg:block text-white font-semibold bg-color1 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0">Registre-se
+            class="hidden lg:block text-white bg-color1 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0">Registre-se
           </a>
           <div id="theme_toggler">
             <i @click="show = !show" :class="{'hidden': !show, 'block':show }"
@@ -82,24 +82,24 @@ $products = getCursos();
           <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
             <li>
               <a href="#"
-                class="font-semibold block py-2 pl-3 pr-4 bg-color1 rounded lg:bg-transparent lg:text-color1 lg:p-0"
+                class="block py-2 pl-3 pr-4 bg-color1 rounded lg:bg-transparent lg:text-color1 lg:p-0"
                 aria-current="page">Home</a>
             </li>
             <li>
               <a href="#"
-                class="font-semibold block py-2 pl-3 pr-4 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:text-color1 lg:p-0">Cursos</a>
+                class="block py-2 pl-3 pr-4 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:text-color1 lg:p-0">Cursos</a>
             </li>
             <li>
               <a href="#"
-                class="font-semibold block py-2 pl-3 pr-4 border-b border-gray-100 hover:bg-gray-50 lg:bg-transparent lg:border-0 lg:text-color1 lg:p-0">PodCast</a>
+                class="block py-2 pl-3 pr-4 border-b border-gray-100 hover:bg-gray-50 lg:bg-transparent lg:border-0 lg:text-color1 lg:p-0">PodCast</a>
             </li>
             <li>
               <a href="#"
-                class="font-semibold block py-2 pl-3 pr-4 border-b border-gray-100 hover:bg-gray-50 lg:bg-transparent lg:border-0 lg:text-color1 lg:p-0">E-Book</a>
+                class="block py-2 pl-3 pr-4 border-b border-gray-100 hover:bg-gray-50 lg:bg-transparent lg:border-0 lg:text-color1 lg:p-0">E-Book</a>
             </li>
             <li>
               <a href="#"
-                class="font-semibold block py-2 pl-3 pr-4 border-b border-gray-100 hover:bg-gray-50 lg:bg-transparent lg:border-0 lg:text-color1 lg:p-0">Quem
+                class="block py-2 pl-3 pr-4 border-b border-gray-100 hover:bg-gray-50 lg:bg-transparent lg:border-0 lg:text-color1 lg:p-0">Quem
                 Somos</a>
             </li>
           </ul>
@@ -117,16 +117,16 @@ $products = getCursos();
     </div>
   </a>
   <section>
-    <div class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
+    <div class="grid px-14 pt-10 mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12">
       <div class="mr-auto place-self-center lg:col-span-6">
-        <h1 class="max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl">
+        <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-5xl">
           Conheça os cursos da <br>
           ACADEMIA ADH</h1>
         <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl">E tenha acesso aos mais
           recentes avanços e pesquisas médicas relacionadas a essas condições</p>
         <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
           <a href="#"
-            class="inline-flex items-center justify-center w-full px-5 py-3 text-sm bg-color1 text-white font-bold text-gray-900 border border-gray-200 rounded-lg sm:w-auto  focus:ring-4 focus:ring-gray-100">
+            class="inline-flex items-center justify-center w-full px-5 py-3 text-sm bg-color1 text-white text-gray-900 border border-gray-200 rounded-lg sm:w-auto  focus:ring-4 focus:ring-gray-100">
             CURSOS ADH
           </a>
           <a href="https://www.figma.com/community/file/1125744163617429490"
@@ -136,7 +136,7 @@ $products = getCursos();
         </div>
       </div>
       <div class="lg:mt-0 lg:col-span-6 lg:flex justify-center p-20">
-        <img class="" src="./assets/img/git_adh.gif" alt="ADH" />
+        <img src="./assets/img/git_adh.gif" alt="ADH" />
       </div>
     </div>
   </section>
@@ -248,7 +248,7 @@ $products = getCursos();
     <div class="lg:w-1/2 pt-20 px-4 pb-8 mx-auto lg:pb-16">
       <div class="pb-8 swiper-slide shadow-inner bg-color1 shadow-md rounded-xl border border-gray-300">
         <div class="max-w-screen-xl px-4 pt-8 mx-auto mb-3 text-center">
-          <h1 class="mt-5 text-white font-semibold lg:text-2xl text-xl">Dúvidas?</h1>
+          <h1 class="mt-5 text-white lg:text-2xl text-xl">Dúvidas?</h1>
           <h2 class="text-white text-md mt-1">Deixe seu contato com nossa equipe preenchendo o formulário</h2>
         </div>
         <form action="./admin/controllers/add_lead.php" method="post">
@@ -286,7 +286,7 @@ $products = getCursos();
     <div class="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
       <div class="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-5">
         <div>
-          <h3 class="mb-6 text-sm font-semibold text-white uppercase">Academia ADH</h3>
+          <h3 class="mb-6 text-sm text-white uppercase">Academia ADH</h3>
           <ul class="text-white">
             <li class="mb-4">
               <a href="#" class=" hover:underline">Home</a>
@@ -303,7 +303,7 @@ $products = getCursos();
           </ul>
         </div>
         <div>
-          <h3 class="mb-6 text-sm font-semibold text-white uppercase">Cursos</h3>
+          <h3 class="mb-6 text-sm text-white uppercase">Cursos</h3>
           <ul class="text-white">
             <li class="mb-4">
               <a href="#" class="hover:underline">Curso Arritmia</a>
@@ -320,7 +320,7 @@ $products = getCursos();
           </ul>
         </div>
         <div>
-          <h3 class="mb-6 text-sm font-semibold text-white uppercase">Politicas</h3>
+          <h3 class="mb-6 text-sm text-white uppercase">Politicas</h3>
           <ul class="text-white">
             <li class="mb-4">
               <a href="#" class="hover:underline">Politica de Privacidade</a>
@@ -334,7 +334,7 @@ $products = getCursos();
           </ul>
         </div>
         <div>
-          <h3 class="mb-6 text-sm font-semibold text-white uppercase">Redes Sociais</h3>
+          <h3 class="mb-6 text-sm text-white uppercase">Redes Sociais</h3>
           <ul class="text-white">
             <li class="mb-4">
               <a href="#" class=" hover:underline">Youtube</a>
@@ -351,7 +351,7 @@ $products = getCursos();
           </ul>
         </div>
         <div>
-          <h3 class="mb-6 text-sm font-semibold text-white uppercase">Contato</h3>
+          <h3 class="mb-6 text-sm text-white uppercase">Contato</h3>
           <ul class="text-white">
             <li class="mb-4">
               <a href="#" class="hover:underline">Email</a>

@@ -164,15 +164,15 @@ $products = getCursos();
   <!-- Conheça seus mentores -->
   <div>
     <h1 class="text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-5xl text-center m-14">
-      Conheça seus mentores
+      Conheça nosso time
     </h1>
   </div>
   <div class="flex flex-row items-center lg:justify-center mt-10">
-    <div>
+    <div class="ml-14 w-1/4">
       <img class="rounded-full" src="./assets/img/Dr. Alcinio.jpg" alt="Dr. Alcinio" />
     </div>
-    <div class="ml-14 w-1/4">
-      <h1 class="mt-2 mb-5 text-4xl font-bold text-justify">Dr. Acinio Sá</h1>
+    <div class="ml-14 w-2/4">
+      <h1 class="mt-2 mb-5 text-4xl font-bold text-justify">Dr. Alcino Sá</h1>
       <p class="mt-2 text-xl font-normal text-justify">
         Dr. Alcinio é um médico cardiologista brasileiro, conhecido por suas contribuições significativas no campo da cardiologia. Ele concluiu sua residência médica em clínica médica no Hospital Heliópolis, em São Paulo, em 2000, e posteriormente realizou sua residência em cardiologia e ecocardiografia no renomado Instituto Dante Pazzanese de Cardiologia, também em São Paulo, nos anos de 2002 e 2004, respectivamente. Em reconhecimento à sua experiência e expertise, tornou-se Membro Titular da Sociedade Brasileira de Cardiologia em 2004 e, no ano seguinte, recebeu a mesma distinção no Departamento de Imagem dessa sociedade.
         <!-- Além disso, em 2016, especializou-se em Hipertensão Arterial no Instituto Dante Pazzanese de Cardiologia. Além de sua carreira médica, ele também é conhecido como esposo de Pryscilla e pai de dois filhos, Guilherme e Gustavo. -->
@@ -180,19 +180,19 @@ $products = getCursos();
     </div>
   </div>
   <div class="flex flex-row items-center lg:justify-center mt-10">
-    <div class="w-1/4">
+    <div class="ml-14 w-2/4">
       <h1 class="mt-10 mb-5 text-4xl font-bold text-justify">Dr. Aécio</h1>
       <p class="mt-2 text-xl font-normal text-justify">TEXTO</p>
     </div>
-    <div>
+    <div class="ml-14 w-1/4">
       <img class="rounded-full" src="./assets/img/Dr. Aécio.jpg" alt="Dr. Aécio" />
     </div>
   </div>
   <div class="flex flex-row items-center lg:justify-center mt-10">
-    <div>
+  <div class="ml-14 w-1/4">
       <img class="rounded-full" src="./assets/img/Dr. Jonatas.jpg" alt="Dr. Jonatas" />
     </div>
-    <div class="ml-14 w-1/4">
+    <div class="ml-14 w-2/4">
       <h1 class="mt-10 mb-5 text-4xl font-bold text-justify">Dr. Jonatas</h1>
       <p class="mt-2 text-xl font-normal text-justify">TEXTO</p>
     </div>

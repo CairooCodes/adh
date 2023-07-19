@@ -3,7 +3,7 @@
       <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
         <a href="#" class="flex items-center">
 
-          <img src="./assets/img/logo.jpg" class="w-60" alt="ADH" />
+          <img src="./assets/img/logo.png" class="w-60" alt="ADH" />
         </a>
         <div class="flex items-center lg:order-2 space-x-2">
           <a href="#" class="hidden lg:block text-white bg-color1 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0">Registre-se

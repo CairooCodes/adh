@@ -79,7 +79,7 @@
     </div>
   </section>
 
-  <section class="lg:py-16 lg:px-32 bg-color1" style="background-image: url('./assets/img/core.jpg')">
+  <section class="lg:py-16 lg:px-32 bg-contain bg-center bg-repeat" style="background-image: url('./assets/img/core1.jpg')">
       <div class="lg:flex lg:justify-center">
         <div class="lg:w-2/2">
           <div class="grid grid-cols-2 gap-2">
@@ -93,7 +93,7 @@
               A abordagem de aprendizado inclui workshops práticos e simulações clínicas realistas. Além disso, destaca-se a importância da pesquisa inovadora para uma visão holística da medicina cardiovascular.
               <br><br>
               O programa incentiva o aprimoramento das habilidades de comunicação e trabalho em equipe, adaptando-se a ambientes de saúde complexos. Estratégias para implementar as melhores práticas na prática clínica são discutidas, visando impactar positivamente um número maior de pacientes e comunidades. Ao concluir o curso, os profissionais estarão preparados para se destacarem na vanguarda da medicina cardiovascular.
-              <button class="w-full mt-10 bg-white text-color1 rounded py-2 font-semibold text-xl hover:bg-color1 hover:text-gray-100">QUERO FAZER PARTE DA MINORIA QUE TEM RESULTADO</button>
+              <button class="w-full mt-10 text-color1 rounded py-2 font-semibold text-xl hover:bg-color1 hover:text-gray-100">QUERO FAZER PARTE DA MINORIA QUE TEM RESULTADO</button>
             </p>
           </div>
         </div>

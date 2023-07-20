@@ -147,40 +147,19 @@
           <h2 class="font-semibold text-3xl text-color1">Finess Buffet</h2>
           <p class="text-base font-medium text-gray-900">Teresina</p>
           <div class="flex justify-end">
-            <img class="mt-5" src="./assets/img/logo2.png" width="500px" alt="ADH" />
+            <img class="mt-5 w-52" src="./assets/img/logo2.png" width="500px" alt="ADH" />
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <section>
-    <div class="grid px-14 pt-32 pb-20 mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12 header-banner">
-      <div class="box fadeInUp mr-auto place-self-center lg:col-span-6">
-        <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-5xl">
-          MARKETING DIGITAL COMPLETO PARA SUA EMPRESA</h1>
-        <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl">Conheça os serviços da Boom Empresarial essenciais para seu négocio</p>
-        <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
-          <a href="#" class="inline-flex items-center justify-center w-full px-5 py-3 text-sm bg-color1 font-bold text-gray-900 border border-gray-200 rounded-lg sm:w-auto  focus:ring-4 focus:ring-gray-100">
-            Conheça nossos serviços <i class="ml-2  bi bi-arrow-right"></i>
-          </a>
-          <a href="" class="inline-flex items-center justify-center w-full px-5 py-3 mb-2 mr-2 text-sm font-semibold rounded-lg sm:w-auto focus:outline-none focus:z-10 focus:ring-4 focus:ring-gray-200 focus:bg-green-600 ring-2 ring-green-600 text-green-600">
-            WhatsApp <i class="ml-2 bi bi-whatsapp"></i>
-          </a>
-        </div>
-      </div>
-      <div class="lg:mt-0 lg:col-span-6 lg:flex justify-center p-20">
-        <img src="./assets/img/" alt="" />
-      </div>
-    </div>
-  </section>
-
   <section class="p-10">
     <div class="space-y-3 flex justify-center">
       <div class="lg:w-2/4">
-        <h3 class="mb-4 lg:text-4xl text-2xl font-bold lg:mt-10 text-center text-black">Vamos<span class="text-color1"> Começar?</span>
+        <h3 class="mb-4 lg:text-4xl text-2xl font-bold lg:mt-10 text-center text-black">Faça sua pré-inscrição<span class="text-color1"> AGORA!</span>
         </h3>
-        <p class="text-md font-medium md:text-lg mb-5 text-justify text-black">A sua empresa está procurando por uma solução de marketing Político completa? Com os produtos e serviços da Boom empresarial, sua equipe pode transformar seus objetivos de conteúdo mais ambiciosos em realidade. Vamos conversar.
+        <p class="text-md font-medium md:text-lg mb-5 text-justify text-black">Desenvolva suas habilidades em medicina cardiovascular! Participe deste curso abrangente, perfeito para novatos e especialistas. Aprofunde seus conhecimentos em diagnósticos e tratamentos avançados, com foco em prevenção e cuidados cardiovasculares. Junte-se a uma jornada de aprendizado dinâmica, ministrada por especialistas renomados, e alcance novos patamares em sua carreira médica. Inscreva-se agora e eleve suas competências no campo da saúde cardiovascular!
         </p>
         <form action="./config/api/create_lead.php" method="post">
           <input name="name" type="text" id="name" placeholder="Nome Completo" class="mb-3 w-full mr-5 border-none bg-gray-50 focus:border-blue-500 ring-2 ring-blue-900 focus-ring-2 ring-blue-500 ring-opacity-20 rounded-md px-3 py-3 text-sm text-gray-800 placeholder-gray-600 outline-none transition duration-400 ease-in-out">

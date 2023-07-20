@@ -44,60 +44,63 @@
   <section class="px-5 lg:py-24 py-12 lg:px-32 bg-gradient-to-r from-black from-35% via-gray-600 via-100%">
     <div class="lg:flex lg:justify-center">
       <div class="lg:w-2/2">
-        <img src="./assets/img/logo2.png" width="500px" alt="ADH" />
-        <h3 class="mb-4 lg:text-4xl text-2xl font-bold lg:mt-10 text-gray-100 text-center"><span class="text-color1">ADH MED - </span> Hipertensão e Arritmia Cardíaca: Abordagens Modernas em Medicina Cardiovascular.
+        <div class="flex justify-center">
+          <img src="./assets/img/logo2.png" width="500px" alt="ADH" />
+        </div>
+        <h3 class="mb-4 lg:text-4xl text-2xl font-bold lg:mt-10 text-gray-100 text-center"><span class="text-color1">ADH MED - </span>Abordagens Modernas em Medicina Cardiovascular.
         </h3>
         <p class="text-md font-medium text-white md:text-lg mb-28 text-justify">
-          Descubra as mais recentes abordagens e tratamentos para hipertensão arterial e arritmia cardíaca no nosso curso de medicina avançada. Neste programa de formação intensiva, médicos e profissionais de saúde aprenderão a diagnosticar e tratar com precisão essas condições cardiovasculares com uma visão holística e integrativa. Com base em pesquisas atualizadas e práticas clínicas inovadoras, o curso oferece uma compreensão aprofundada das causas, fatores de risco e abordagens terapêuticas personalizadas. Prepare-se para fazer a diferença na vida dos pacientes, proporcionando-lhes o melhor cuidado possível para uma saúde cardiovascular ideal.
+          Descubra o fascinante mundo da Medicina Cardiovascular, onde a inovação encontra o cuidado ao paciente! Desvende o potencial de diagnósticos avançados e tratamentos personalizados para vencer as doenças cardíacas. De terapias genéticas pioneiras a intervenções assistidas por inteligência artificial de última geração, testemunhe uma revolução médica que salva vidas como nunca antes. Abra espaço para a medicina de precisão, adaptada às necessidades individuais, aproveitando o poder da genômica e proteômica para desbloquear terapias personalizadas. Viva o futuro com técnicas não invasivas, maravilhas da nanotecnologia e terapias regenerativas, moldando uma nova era nos cuidados cardíacos. Junte-se a nós nessa jornada épica de esperança, reescrevendo a história da saúde cardiovascular e elevando o bem-estar da humanidade a alturas surpreendentes!"
         </p>
 
         <button class="w-full bg-white border rounded py-2 mb-5 font-semibold text-2xl hover:bg-color1 hover:text-gray-200">
-          GARANTA SUA VAGA AGORA MESMO E DOMINE A MEDICINA CARDIOVASCULAR!
+          GARANTA SUA VAGA E DOMINE A MEDICINA CARDIOVASCULAR!
         </button>
         <p class="text-gray-100 text-center mb-32">
           Nos dias 10, 11 e 12 de Agosto <span class="text-color2 text-xs"> EM </span> Teresina
         </p>
-
-        <div class="items-center gap-8 lg:grid lg:grid-cols-3 xl:gap-8 text-white">
-          <div class="bg-color1 rounded-lg px-5 py-5 m-2">
-            <i class="text-6xl bi bi-heart-pulse"></i>
-            <h1 class="text-white pt-4 font-bold text-2xl pb-2">Descubra os Segredos do Coração:</h1>
-            <p class="text-lx text-white text-justify">Explore a anatomia, diagnósticos e tratamentos inovadores para desvendar o fascinante mundo da cardiologia. Aprenda a interpretar o ECG e aprofunde-se nas principais doenças cardíacas. - Inscreva-se!</p>
-          </div>
-          <div class="bg-color1 rounded-lg px-5 py-5 m-2">
-            <i class="text-6xl bi bi-clipboard2-pulse"></i>
-            <h1 class="text-white pt-4 font-bold text-2xl pb-2">Aprofunde-se na Essência do Coração:</h1>
-            <p class="text-lx text-white">Curso Intermediário: Anatomia avançada, diagnósticos especializados e tecnologias inovadoras. Desvende casos clínicos desafiadores e aprofunde-se na fisiologia cardíaca. Torne-se um especialista do coração - Inscreva-se!</p>
-          </div>
-          <div class="bg-color1 rounded-lg px-5 py-5 m-2">
-            <i class="text-6xl bi bi-prescription2"></i>
-            <h1 class="text-white pt-4 font-bold text-2xl pb-2">Excelência na Essência do Coração:</h1>
-            <p class="text-lx text-white">Curso Avançado de Medicina Cardiovascular: Intervencionismo, tecnologias de imagem e diagnósticos avançados. Aprofunde-se em tratamentos complexos e torne-se uma referência na área. Inscreva-se!</p>
-          </div>
-        </div>
+  </section>
+  <section class="px-5 lg:py-24 py-12 lg:px-32">
+    <div class="items-center gap-8 lg:grid lg:grid-cols-3 xl:gap-8 text-white">
+      <div class="bg-color1 rounded-lg px-5 py-5 m-2">
+        <i class="text-6xl bi bi-heart-pulse"></i>
+        <h1 class="text-white pt-4 font-bold text-2xl pb-2">Descubra os Segredos do Coração:</h1>
+        <p class="text-lx text-white text-justify">Explore a anatomia, diagnósticos e tratamentos inovadores para desvendar o fascinante mundo da cardiologia. Aprenda a interpretar o ECG e aprofunde-se nas principais doenças cardíacas. - Inscreva-se!</p>
       </div>
+      <div class="bg-color1 rounded-lg px-5 py-5 m-2">
+        <i class="text-6xl bi bi-clipboard2-pulse"></i>
+        <h1 class="text-white pt-4 font-bold text-2xl pb-2">Aprofunde-se na Essência do Coração:</h1>
+        <p class="text-lx text-white">Curso Intermediário: Anatomia avançada, diagnósticos especializados e tecnologias inovadoras. Desvende casos clínicos desafiadores e aprofunde-se na fisiologia cardíaca. Torne-se um especialista do coração - Inscreva-se!</p>
+      </div>
+      <div class="bg-color1 rounded-lg px-5 py-5 m-2">
+        <i class="text-6xl bi bi-prescription2"></i>
+        <h1 class="text-white pt-4 font-bold text-2xl pb-2">Excelência na Essência do Coração:</h1>
+        <p class="text-lx text-white">Curso Avançado de Medicina Cardiovascular: Intervencionismo, tecnologias de imagem e diagnósticos avançados. Aprofunde-se em tratamentos complexos e torne-se uma referência na área. Inscreva-se!</p>
+      </div>
+    </div>
+    </div>
     </div>
   </section>
 
-  <section class="lg:py-16 lg:px-32 bg-contain bg-center bg-repeat" style="background-image: url('./assets/img/core1.jpg')">
-      <div class="lg:flex lg:justify-center">
-        <div class="lg:w-2/2">
-          <div class="grid grid-cols-2 gap-2">
-            <h3 class="lg:text-4xl text-2xl font-bold lg:mt-48 text-color1 text-center">
-              ACADEMIA ADH,<br><br>
-              você entre os melhores.
-            </h3>
-            <p class="text-md font-medium text-color1 md:text-lg mb-2 text-justify">
-              O curso intensivo em medicina cardiovascular aborda tópicos avançados e emergentes para a compreensão das doenças cardíacas. Os participantes terão acesso a recursos educacionais de alta qualidade e interação com especialistas renomados. A ênfase na colaboração multidisciplinar visa melhorar o atendimento aos pacientes.
-              <br><br>
-              A abordagem de aprendizado inclui workshops práticos e simulações clínicas realistas. Além disso, destaca-se a importância da pesquisa inovadora para uma visão holística da medicina cardiovascular.
-              <br><br>
-              O programa incentiva o aprimoramento das habilidades de comunicação e trabalho em equipe, adaptando-se a ambientes de saúde complexos. Estratégias para implementar as melhores práticas na prática clínica são discutidas, visando impactar positivamente um número maior de pacientes e comunidades. Ao concluir o curso, os profissionais estarão preparados para se destacarem na vanguarda da medicina cardiovascular.
-              <button class="w-full mt-10 text-color1 rounded py-2 font-semibold text-xl hover:bg-color1 hover:text-gray-100">QUERO FAZER PARTE DA MINORIA QUE TEM RESULTADO</button>
-            </p>
-          </div>
+  <section class="lg:py-16 lg:px-32 bg-cover" style="background-image: url('./assets/img/core1.jpg')">
+    <div class="lg:flex lg:justify-center">
+      <div class="lg:w-2/2">
+        <div class="grid grid-cols-2 gap-2">
+          <h3 class="lg:text-4xl text-2xl font-bold lg:mt-48 text-color1 text-center">
+            ACADEMIA ADH,<br><br>
+            você entre os melhores.
+          </h3>
+          <p class="text-md font-medium text-color1 md:text-lg mb-2 text-justify">
+            O curso intensivo em medicina cardiovascular aborda tópicos avançados e emergentes para a compreensão das doenças cardíacas. Os participantes terão acesso a recursos educacionais de alta qualidade e interação com especialistas renomados. A ênfase na colaboração multidisciplinar visa melhorar o atendimento aos pacientes.
+            <br><br>
+            A abordagem de aprendizado inclui workshops práticos e simulações clínicas realistas. Além disso, destaca-se a importância da pesquisa inovadora para uma visão holística da medicina cardiovascular.
+            <br><br>
+            O programa incentiva o aprimoramento das habilidades de comunicação e trabalho em equipe, adaptando-se a ambientes de saúde complexos. Estratégias para implementar as melhores práticas na prática clínica são discutidas, visando impactar positivamente um número maior de pacientes e comunidades. Ao concluir o curso, os profissionais estarão preparados para se destacarem na vanguarda da medicina cardiovascular.
+            <button class="w-full mt-10 text-color1 rounded py-2 font-semibold text-xl hover:bg-color1 hover:text-gray-100">QUERO FAZER PARTE DA MINORIA QUE TEM RESULTADO</button>
+          </p>
         </div>
       </div>
+    </div>
   </section>
 
   <section class="lg:py-16 lg:px-32 bg-gray-100">

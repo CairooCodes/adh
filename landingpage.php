@@ -141,7 +141,7 @@
           <h1 class="mt-5 text-color1 font-semibold lg:text-4xl text-xl">Quando e Onde vai acontecer?</h1>
         </div>
         <div class="text-center mb-2">
-          <p class="text-base font-medium text-gray-900">O Subido Ao Vivo acontecerá nos dias:</p>
+          <p class="text-base font-medium text-gray-900">O ADH MED Ao Vivo acontecerá nos dias:</p>
           <h1 class="font-semibold text-3xl text-color1">18, 19 e 20 de agosto de 2023</h1>
           <p class="text-base font-medium text-gray-900">sexta, sábado e domingo <br><span class="text-color1 font-bold"> no </span></p>
           <h2 class="font-semibold text-3xl text-color1">Finess Buffet</h2>

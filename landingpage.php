@@ -63,26 +63,33 @@
   <section class="px-5 lg:py-24 py-12 lg:px-32">
     <div class="items-center gap-8 lg:grid lg:grid-cols-3 xl:gap-8 text-white">
       <div class="bg-color1 rounded-lg px-5 py-5 m-2">
-        <i class="text-6xl bi bi-heart-pulse"></i>
+        <div class="flex flex-nowrap">
+          <i class="text-6xl bi bi-heart-pulse"></i>
+          <p class="text-xl pl-10 font-bold">MÓDULO I</p>
+        </div>
         <h1 class="text-white pt-4 font-bold text-2xl pb-2">Descubra os Segredos do Coração:</h1>
-        <p class="text-lx text-white text-justify">Explore a anatomia, diagnósticos e tratamentos inovadores para desvendar o fascinante mundo da cardiologia. Aprenda a interpretar o ECG e aprofunde-se nas principais doenças cardíacas. - Inscreva-se!</p>
+        <p class="text-lx text-white text-justify">Explore a anatomia, diagnósticos e tratamentos inovadores para desvendar o fascinante mundo da cardiologia. Aprenda a interpretar o ECG e aprofunde-se nas principais doenças cardíacas.</p>
       </div>
       <div class="bg-color1 rounded-lg px-5 py-5 m-2">
-        <i class="text-6xl bi bi-clipboard2-pulse"></i>
+        <div class="flex flex-nowrap">
+          <i class="text-6xl bi bi-clipboard2-pulse"></i>
+          <p class="text-xl pl-10 font-bold">MÓDULO II</p>
+        </div>
         <h1 class="text-white pt-4 font-bold text-2xl pb-2">Aprofunde-se na Essência do Coração:</h1>
-        <p class="text-lx text-white">Curso Intermediário: Anatomia avançada, diagnósticos especializados e tecnologias inovadoras. Desvende casos clínicos desafiadores e aprofunde-se na fisiologia cardíaca. Torne-se um especialista do coração - Inscreva-se!</p>
+        <p class="text-lx text-white">Curso Intermediário: Anatomia avançada, diagnósticos especializados e tecnologias inovadoras. Desvende casos clínicos desafiadores e aprofunde-se na fisiologia cardíaca. Torne-se um especialista do coração.</p>
       </div>
       <div class="bg-color1 rounded-lg px-5 py-5 m-2">
-        <i class="text-6xl bi bi-prescription2"></i>
+        <div class="flex flex-nowrap">
+          <i class="text-6xl bi bi-prescription2"></i>
+          <p class="text-xl pl-10 font-bold">MÓDULO III</p>
+        </div>
         <h1 class="text-white pt-4 font-bold text-2xl pb-2">Excelência na Essência do Coração:</h1>
-        <p class="text-lx text-white">Curso Avançado de Medicina Cardiovascular: Intervencionismo, tecnologias de imagem e diagnósticos avançados. Aprofunde-se em tratamentos complexos e torne-se uma referência na área. Inscreva-se!</p>
+        <p class="text-lx text-white">Curso Avançado de Medicina Cardiovascular: Intervencionismo, tecnologias de imagem e diagnósticos avançados. Aprofunde-se em tratamentos complexos e torne-se uma referência na área.</p>
       </div>
-    </div>
-    </div>
     </div>
   </section>
 
-  <section class="lg:py-16 lg:px-32 bg-cover" style="background-image: url('./assets/img/core1.jpg')">
+  <section class="lg:py-16 lg:px-32 bg-no-repeat bg-cover bg-center" style="background-image: url('./assets/img/core1.jpg')">
     <div class="lg:flex lg:justify-center">
       <div class="lg:w-2/2">
         <div class="grid grid-cols-2 gap-2">
@@ -124,10 +131,28 @@
           </div>
         </div>
       </div>
-
     </div>
-
   </section>
+
+  <div class="pt-10 form bg-no-repeat bg-center bg-cover bg-contain" style="background-image: url('./assets/img/banner-core.jpg')">
+    <div class="lg:w-2/3 pt-20 px-4 pb-8 mx-auto lg:pb-16">
+      <div class="shadow-inner bg-white bg-opacity-40 shadow-md rounded-xl border border-gray-300">
+        <div class="max-w-screen-xl px-4 pt-8 mx-auto mb-3 text-center">
+          <h1 class="mt-5 text-color1 font-semibold lg:text-4xl text-xl">Quando e Onde vai acontecer?</h1>
+        </div>
+        <div class="text-center mb-2">
+          <p class="text-base font-medium text-gray-900">O Subido Ao Vivo acontecerá nos dias:</p>
+          <h1 class="font-semibold text-3xl text-color1">18, 19 e 20 de agosto de 2023</h1>
+          <p class="text-base font-medium text-gray-900">sexta, sábado e domingo <br><span class="text-color1 font-bold"> no </span></p>
+          <h2 class="font-semibold text-3xl text-color1">Finess Buffet</h2>
+          <p class="text-base font-medium text-gray-900">Teresina</p>
+          <div class="flex justify-end">
+            <img class="mt-5" src="./assets/img/logo2.png" width="500px" alt="ADH" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <section>
     <div class="grid px-14 pt-32 pb-20 mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12 header-banner">
@@ -149,6 +174,7 @@
       </div>
     </div>
   </section>
+
   <section class="p-10">
     <div class="space-y-3 flex justify-center">
       <div class="lg:w-2/4">
@@ -174,6 +200,7 @@
     </div>
     </div>
   </section>
+
   <?php include "./components/footer.php" ?>
   <script src="assets/js/dark_mode.js"></script>
   <script src="assets/js/tw.js"></script>

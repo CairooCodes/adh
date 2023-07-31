@@ -89,10 +89,10 @@
     </div>
   </section>
 
-  <section class="lg:py-16 lg:px-32 bg-no-repeat bg-cover bg-center" style="background-image: url('./assets/img/core1.jpg')">
+  <section class="p-2 lg:py-16 lg:px-32 bg-no-repeat bg-cover bg-center" style="background-image: url('./assets/img/core1.jpg')">
     <div class="lg:flex lg:justify-center">
       <div class="lg:w-2/2">
-        <div class="grid grid-cols-2 gap-2">
+        <div class="lg:grid lg:grid-cols-2 gap-2">
           <h3 class="lg:text-4xl text-2xl font-bold lg:mt-48 text-color1 text-center">
             ACADEMIA ADH,<br><br>
             você entre os melhores.
@@ -110,10 +110,10 @@
     </div>
   </section>
 
-  <section class="lg:py-16 lg:px-32 bg-gray-100">
+  <section class="p-5 lg:py-16 lg:px-32 bg-gray-100">
     <div class="lg:flex lg:justify-center">
       <div class="lg:w-2/2">
-        <p class="font-bold text-color1 mb-10 text-4xl text-center">A profissionalização é o único caminho.</p>
+        <p class="font-bold text-color1 mb-10 text-3xl text-center">A profissionalização é o único caminho.</p>
         <p class="font-normal text-color1 mb-16 text-xl text-center">Não importa seu tempo de mercado, seu número de clientes ou quanto dinheiro você já gerenciou: <br> <span class="text-color1 font-bold text-xl"> ACADEMIA ADH é o lugar perfeito para você ter ainda mais resultados.</span>
         </p>
         <div class="items-center gap-8 lg:grid lg:grid-cols-3 xl:gap-8 text-white">

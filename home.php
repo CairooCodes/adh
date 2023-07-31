@@ -141,8 +141,8 @@ $products = getCursos();
     </div>
   </section>
   <section class="bg-color1">
-    <div class="grid max-w-screen-xl px-4 pt-20 mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12 lg:pt-28">
-      <div class="hidden lg:mt-0 lg:col-span-6 lg:flex justify-center">
+    <div class="pb-10 grid max-w-screen-xl px-4 pt-20 mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12 lg:pt-28">
+      <div class="lg:mt-0 lg:col-span-6 lg:flex justify-center">
         <img src="./assets/img/ebook.png" alt="ADH" />
       </div>
       <div class="mr-auto place-self-center lg:col-span-6">
@@ -167,11 +167,11 @@ $products = getCursos();
       Conheça nosso time
     </h1>
   </div>
-  <div class="flex flex-row items-center lg:justify-center mt-10">
-    <div class="ml-14 w-1/4">
+  <div class="p-3 lg:flex lg:flex-row items-center lg:justify-center mt-10">
+    <div class="lg:ml-14 lg:w-1/4">
       <img class="rounded-full" src="./assets/img/Dr. Alcinio.jpg" alt="Dr. Alcinio" />
     </div>
-    <div class="ml-14 w-2/4">
+    <div class="lg:ml-14 lg:w-2/4">
       <h1 class="mt-2 mb-5 text-4xl font-bold text-justify">Dr. Alcino Sá</h1>
       <p class="mt-2 text-xl font-normal text-justify">
         Dr. Alcinio é um médico cardiologista brasileiro, conhecido por suas contribuições significativas no campo da cardiologia. Ele concluiu sua residência médica em clínica médica no Hospital Heliópolis, em São Paulo, em 2000, e posteriormente realizou sua residência em cardiologia e ecocardiografia no renomado Instituto Dante Pazzanese de Cardiologia, também em São Paulo, nos anos de 2002 e 2004, respectivamente. Em reconhecimento à sua experiência e expertise, tornou-se Membro Titular da Sociedade Brasileira de Cardiologia em 2004 e, no ano seguinte, recebeu a mesma distinção no Departamento de Imagem dessa sociedade.

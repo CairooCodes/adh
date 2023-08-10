@@ -68,14 +68,16 @@ background: linear-gradient(0deg, rgba(65,43,108,1) 0%, rgba(65,43,108,1) 25%, r
         <div class="z-10">
           <h3 style="text-shadow: 1px 1px white" class="fade-in-up mb-4 lg:text-4xl text-3xl font-bold lg:mt-10 text-center">Como diagnosticar seu paciente com confiança e eficiencia em casos de diabete e hipertesao
           </h3>
-          <button class="my-5 w-full lg:mt-20 relative bg-green-500 hover:bg-blue-600 text-white font-semibold py-5 px-4 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400 transition duration-300">
-            <span class="animate-bounce absolute inset-x-0 bottom-0 text-center">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mx-auto text-white" viewBox="0 0 20 20" fill="currentColor">
-                <path fill-rule="evenodd" d="M6.293 7.293a1 1 0 011.414 0L10 9.586l2.293-2.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd" />
-              </svg>
-            </span>
-            GARANTIR MINHA VAGA
-          </button>
+          <a href="#price">
+            <button class="my-5 w-full lg:mt-20 relative bg-green-500 hover:bg-blue-600 text-white font-semibold py-5 px-4 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400 transition duration-300">
+              <span class="animate-bounce absolute inset-x-0 bottom-0 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mx-auto text-white" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M6.293 7.293a1 1 0 011.414 0L10 9.586l2.293-2.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+              </span>
+              GARANTIR MINHA VAGA
+            </button>
+          </a>
           <p class="text-center text-white lg:mb-32 mb-10 text-md">
             Nos dia 2 de setembro <span class="text-color2 text-xs"> EM </span> Teresina
           </p>
@@ -87,7 +89,7 @@ background: linear-gradient(0deg, rgba(65,43,108,1) 0%, rgba(65,43,108,1) 25%, r
     <h1 class="lg:text-4xl text-3xl font-bold leading-none tracking-tight md:text-5xl xl:text-5xl text-center mb-4">
       Conheça nosso time
     </h1>
-    <div class="lg:flex lg:space-x-40 p-5">
+    <div class="lg:flex lg:space-x-40 px-20 lg:p-0">
       <div class="lg:mb-4 mb-16 fade-in-up">
         <img class="rounded-full" src="./assets/img/Dr. Alcinio.jpg" alt="Dr. Alcinio" />
         <h1 class="mt-4 text-3xl font-bold text-center">Dr. Alcino Sá</h1>
@@ -106,38 +108,37 @@ background: linear-gradient(0deg, rgba(65,43,108,1) 0%, rgba(65,43,108,1) 25%, r
     <div class="lg:flex lg:justify-center">
       <div class="lg:w-2/2">
         <p class="font-bold text-color1 mb-10 text-3xl text-center">A profissionalização é o único caminho.</p>
-        <p class="font-normal text-color1 mb-16 text-xl text-center">Não importa seu tempo de mercado, seu número de clientes ou quanto dinheiro você já gerenciou: <br> <span class="text-color1 font-bold text-xl"> ACADEMIA ADH é o lugar perfeito para você ter ainda mais resultados.</span>
+        <p class="font-normal text-color1 mb-16 text-xl text-center">Não importa seu tempo de estudo ou experiência <br> <span class="text-color1 font-bold text-xl"> Aqui é o lugar perfeito para você ter ainda mais resultados.</span>
         </p>
         <div class="items-center gap-8 lg:grid lg:grid-cols-3 xl:gap-8 text-white">
           <div class="border-t-4 border-b-4 border-color1 rounded-lg px-5 py-5 m-2">
-            <h1 class="text-color1 pt-4 font-bold text-2xl pb-2">Se é iniciante,</h1>
+            <h1 class="text-color1 pt-4 font-bold text-2xl pb-2">Se é estudante,</h1>
             <p class="text-lx text-color1">vai aprender fundamentos médicos, habilidades clínicas, comunicação empática e preparação para estágios e residências;</p>
           </div>
           <div class="border-t-4 border-b-4 border-color1 rounded-lg px-5 py-5 m-2">
-            <h1 class="text-color1 pt-4 font-bold text-2xl pb-2">Se já executa,</h1>
+            <h1 class="text-color1 pt-4 font-bold text-2xl pb-2">Se é médico,</h1>
             <p class="text-lx text-color1">vai aprender novas formas de aprimorar seu trabalho, proporcionando um atendimento ainda mais eficiente para valorizar seus serviços;</p>
           </div>
           <div class="border-t-4 border-b-4 border-color1 rounded-lg px-5 py-5 m-2">
-            <h1 class="text-color1 pt-4 font-bold text-2xl pb-2">Se é avançado,</h1>
+            <h1 class="text-color1 pt-4 font-bold text-2xl pb-2">Se é Mestre,</h1>
             <p class="text-lx text-color1">vai ampliar seu networking, fazer parcerias e conecte-se com especialistas renomados, atualizando-se com práticas inovadoras;</p>
           </div>
         </div>
       </div>
     </div>
   </section>
-
   <div class="pt-10 form bg-no-repeat bg-center bg-cover bg-contain" style="background-image: url('./assets/img/image-teresina-uchoa-hotel-16.jpeg')">
     <div class="lg:w-2/3 pt-20 px-4 pb-8 mx-auto lg:pb-16">
-      <div class="shadow-inner bg-white bg-opacity-40 shadow-md rounded-xl border border-gray-300">
+      <div class="shadow-inner bg-black bg-opacity-40 shadow-md rounded-xl border border-gray-300">
         <div class="max-w-screen-xl px-4 pt-8 mx-auto mb-3 text-center">
-          <h1 class="mt-5 text-color1 font-semibold lg:text-4xl text-xl">Quando e Onde vai acontecer?</h1>
+          <h1 class="mt-5 text-white font-semibold lg:text-4xl text-xl">Quando e onde vai acontecer?</h1>
         </div>
         <div class="text-center mb-2">
-          <p class="text-base font-medium text-gray-900">O ADH MED acontecerá nos dias:</p>
-          <h1 class="font-semibold text-3xl text-color1">10, 11 e 12 de Agosto de 2023</h1>
-          <p class="text-base font-medium text-gray-900">sexta, sábado e domingo <br><span class="text-color1 font-bold"> no </span></p>
-          <h2 class="font-semibold text-3xl text-color1">Finess Buffet</h2>
-          <p class="text-base font-medium text-gray-900">Teresina</p>
+          <p class="text-base font-medium text-white">Acontecerá no dia:</p>
+          <h1 class="font-semibold text-3xl text-white">2 de setembro</h1>
+          <p class="text-white font-bold"> no</p>
+          <h2 class="font-semibold text-3xl text-white">Hotel Uchôa</h2>
+          <p class="text-base font-medium text-white">Teresina</p>
           <div class="flex justify-end">
             <img class="mt-5 w-52" src="./assets/img/logo2.png" width="500px" alt="ADH" />
           </div>
@@ -146,33 +147,57 @@ background: linear-gradient(0deg, rgba(65,43,108,1) 0%, rgba(65,43,108,1) 25%, r
     </div>
   </div>
 
-  <section class="p-10">
-    <div class="space-y-3 flex justify-center">
-      <div class="lg:w-2/4">
-        <h3 class="mb-4 lg:text-4xl text-2xl font-bold lg:mt-10 text-center text-black">Faça sua pré-inscrição<span class="text-color1"> AGORA!</span>
-        </h3>
-        <p class="text-md font-medium md:text-lg mb-5 text-justify text-black">Desenvolva suas habilidades em medicina cardiovascular! Participe deste curso abrangente, perfeito para novatos e especialistas. Aprofunde seus conhecimentos em diagnósticos e tratamentos avançados, com foco em prevenção e cuidados cardiovasculares. Junte-se a uma jornada de aprendizado dinâmica, ministrada por especialistas renomados, e alcance novos patamares em sua carreira médica. Inscreva-se agora e eleve suas competências no campo da saúde cardiovascular!
-        </p>
-        <form action="./config/api/create_lead.php" method="post">
-          <input name="name" type="text" id="name" placeholder="Nome Completo" class="mb-3 w-full mr-5 border-none bg-gray-50 focus:border-blue-500 ring-2 ring-blue-900 focus-ring-2 ring-blue-500 ring-opacity-20 rounded-md px-3 py-3 text-sm text-gray-800 placeholder-gray-600 outline-none transition duration-400 ease-in-out">
-          <div>
-            <input name="email" type="text" id="email" placeholder="Email" class="mb-3 w-full mr-5 border-none bg-gray-50 focus:border-blue-500 ring-2 ring-blue-900 focus-ring-2 ring-blue-500 ring-opacity-20 rounded-md px-3 py-3 text-sm text-gray-800 placeholder-gray-600 outline-none transition duration-400 ease-in-out">
-          </div>
-          <div>
-            <input name="whatsapp" type="number" id="whatsapp" placeholder="Whatsapp" class="mb-3 w-full mr-5 border-none bg-gray-50 focus:border-blue-500 ring-2 ring-blue-900 focus-ring-2 ring-blue-500 ring-opacity-20 rounded-md px-3 py-3 text-sm text-gray-800 placeholder-gray-600 outline-none transition duration-400 ease-in-out">
-          </div>
-          <div class="pt-2">
-            <button type="submit" class="font-semibold bg-color1 p-2 rounded-lg w-full">
-              <span class="text-white">Enviar contato</span>
+  <!-- component -->
+  <div class="bg-gradient-to-b from-blue-100 to-blue-200">
+    <div class="container m-auto px-6 py-10 md:px-12 lg:px-20">
+      <div class="m-auto text-center lg:w-8/12 xl:w-7/12">
+        <h2 class="text-2xl text-color1 font-bold md:text-4xl">Garanta já agora sua oportunidade</h2>
+      </div>
+      <div id="price" class="mt-12 m-auto -space-y-4 items-center justify-center md:flex md:space-y-0 md:-space-x-4 xl:w-10/12">
+        <div class="relative z-10 -mx-4 group md:w-6/12 md:mx-0 lg:w-5/12">
+          <div aria-hidden="true" class="absolute top-0 w-full h-full rounded-2xl bg-white shadow-xl transition duration-500 group-hover:scale-105 lg:group-hover:scale-110"></div>
+          <div class="relative p-6 space-y-6 lg:p-8">
+            <h3 class="text-3xl text-gray-700 font-semibold text-center">Preço Lote I</h3>
+            <div>
+              <div class="relative flex justify-around">
+                <div class="flex items-end">
+                  <span class="block text-2xl text-gray-700 font-bold">R$ </span>
+                  <span class="text-5xl text-gray-800 font-bold leading-0">240,</span>
+                  <span class="block text-2xl text-gray-700 font-bold">00</span>
+                </div>
+              </div>
+            </div>
+            <ul role="list" class="w-max space-y-4 py-6 m-auto text-gray-600">
+              <li class="space-x-2">
+                <span class="text-green-500 font-semibold">&check;</span>
+                <span>Compra segura</span>
+              </li>
+              <li class="space-x-2">
+                <span class="text-green-500 font-semibold">&check;</span>
+                <span>Pix, Boleto e Cartão de crédito</span>
+              </li>
+            </ul>
+            <p class="flex items-center justify-center space-x-4 text-lg text-gray-600 text-center">
+              <span>Dúvidas? Ligue</span>
+              <a href="tel:+24300" class="flex space-x-2 items-center text-color1">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6" viewBox="0 0 16 16">
+                  <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                </svg>
+                <span class="font-semibold">(86) 000 000</span>
+              </a>
+            </p>
+            <button type="submit" title="Submit" class="block w-full py-3 px-6 text-center rounded-xl transition bg-color1 hover:bg-purple-700 active:bg-purple-800 focus:bg-indigo-600">
+              <span class="text-white font-semibold">
+                Comprar agora
+              </span>
             </button>
           </div>
+        </div>
       </div>
-      </form>
     </div>
-    </div>
-  </section>
+  </div>
 
-  <?php include "./components/footer.php" ?>
+  <?php include "./components/footer_lp.php" ?>
   <script src="assets/js/dark_mode.js"></script>
   <script src="assets/js/tw.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.js"></script>
@@ -221,6 +246,17 @@ background: linear-gradient(0deg, rgba(65,43,108,1) 0%, rgba(65,43,108,1) 25%, r
     }, options);
 
     cards.forEach(card => observer.observe(card));
+  </script>
+  <script>
+    $('a[href^="#"]').on('click', function(e) {
+      e.preventDefault();
+      var id = $(this).attr('href'),
+        targetOffset = $(id).offset().top;
+
+      $('html, body').animate({
+        scrollTop: targetOffset - 100
+      }, 500);
+    });
   </script>
 </body>
 

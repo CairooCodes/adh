@@ -76,7 +76,7 @@
 </head>
 
 <body>
-  <section class="px-5 lg:px-32 lg:pb-20" style="">
+  <section class="px-5 lg:px-32 lg:pb-20" style>
     <div class='loading-container relative'>
       <div class='loading h-3 w-[0%] bg-color2 transition-all duration-200 absolute z-40 top-0'></div>
       <div class="flex justify-center">
@@ -105,109 +105,6 @@
             Nos dia 2 de setembro <span class="text-color2 text-xs"> EM </span> Teresina
           </p>
         </div>
-      </div>
-    </div>
-  </section>
-  <section class="bg-color1 pt-10 lg:pb-10">
-    <div class="max-w-5xl mx-auto p-5">
-      <h3 class="text-2xl lg:text-3xl text-white font-regular mb-10 ml-3 text-center">Veja os depoimentos de quem foi e como foi o último curso de Imersão em Diabetes e Hipertensão</h3>
-      <div class="flex flex-col gap-3 mt-14">
-        <div class="lg:grid lg:grid-cols-2 gap-8">
-          <div class="fade-in-up flex flex-col gap-4 bg-gray-700 p-4 bg-white rounded-lg mb-2">
-            <div class="flex justify justify-between">
-              <div class="flex gap-2">
-                <div class="w-7 h-7 text-center rounded-full bg-red-500">R</div>
-                <span>Rejane Prestes</span>
-              </div>
-              <div class="flex p-1 gap-1 text-orange-300">
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-              </div>
-            </div>
-            <div>
-              É um curso prático que te atualiza e que serve muito na conduta do consultório
-            </div>
-          </div>
-          <div class="fade-in-up flex flex-col gap-4 bg-gray-700 p-4 bg-white rounded-lg mb-2">
-            <div class="flex justify justify-between">
-              <div class="flex gap-2">
-                <div class="w-7 h-7 text-center rounded-full bg-red-500">L</div>
-                <span>Luciana Gal</span>
-              </div>
-              <div class="flex p-1 gap-1 text-orange-300">
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-              </div>
-            </div>
-            <div>
-              Eu estou adorando por ser um formato novo, diferente do tradicional que a gente viveu durante a faculdade
-            </div>
-          </div>
-          <div class="fade-in-up flex flex-col gap-4 bg-gray-700 p-4 bg-white rounded-lg mb-2">
-            <div class="flex justify justify-between">
-              <div class="flex gap-2">
-                <div class="w-7 h-7 text-center rounded-full bg-red-500">L</div>
-                <span>Lara Sérvio</span>
-              </div>
-              <div class="flex p-1 gap-1 text-orange-300">
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-              </div>
-            </div>
-            <div>
-              Assim que eu soube da propagação desse curso, eu logo me inscrevi, porque eu acho que o formato que está sendo feito é um formato diferenciado. É diferente daquela coisa monótona, que fala só da teoria. Então é um curso realmente bem prático
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="flex justify-center">
-      <div class="lg:w-1/6">
-        <div class="flex justify-center">
-          <video playsinline controls>
-            <source src="./assets/img/video.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="max-w-5xl mx-auto pt-10 pb-10">
-    <h1 class="lg:text-4xl text-3xl font-regular leading-none tracking-tight md:text-5xl xl:text-5xl text-color1 text-center mb-10">
-      Conheça nosso time
-    </h1>
-    <div class="lg:flex lg:space-x-40 px-20 lg:p-0">
-      <div class="lg:mb-4 mb-16 fade-in-up">
-        <div class="flex justify-center">
-          <img class="rounded-full w-40" src="./assets/img/Dr. Alcinio.jpg" alt="Dr. Alcinio" />
-        </div>
-        <h1 class="mt-4 text-3xl font-regular text-center text-color1">Dr. Alcino Sá</h1>
-        <p class="text-justify">Cardiologista especialista em Hipertensão Arterial pelo Instituto Dante Pazzanese de Cardiologia.
-        </p>
-      </div>
-      <div class="lg:mb-4 mb-16 fade-in-up">
-        <div class="flex justify-center">
-          <img class="rounded-full w-40" src="./assets/img/Dr. Aécio.jpg" alt="Dr. Aécio" />
-        </div>
-        <h1 class="mt-4 text-3xl font-regular text-center text-color1">Dr. Aécio Lira</h1>
-        <p class="text-justify">Endocrinologista doutor em Diabetes pela Universidade de São Paulo
-        </p>
-      </div>
-      <div class="lg:mb-4 mb-16 fade-in-up">
-        <div class="flex justify-center">
-          <img class="rounded-full w-40" src="./assets/img/Dr. Jonatas.jpg" alt="Dr. Jonatas" />
-        </div>
-        <h1 class="mt-4 text-3xl font-regular text-center text-color1">Dr. Jonatas</h1>
-        <p class="text-justify">Cardiologista especialista em Arritmias pelo Instituto Dante Pazzanese de Cardiologia.
-        </p>
       </div>
     </div>
   </section>
@@ -310,6 +207,111 @@
         </button>
       </a>
     </div>
+  </section>
+  <section class="bg-white pt-10 lg:pb-10">
+    <div class="max-w-5xl mx-auto p-5">
+      <h3 class="text-2xl lg:text-3xl text-color1 font-regular mb-10 ml-3 text-center">Veja os depoimentos</h3>
+      <div class="flex flex-col gap-3 mt-14">
+        <div class="lg:grid lg:grid-cols-2 gap-8">
+          <div class="fade-in-up flex flex-col gap-4 text-white p-4 bg-color1 rounded-lg mb-2">
+            <div>
+              "É um curso prático que te atualiza e que serve muito na conduta do consultório"
+            </div>
+            <div class="flex justify justify-between">
+              <div class="flex gap-2">
+                <div class="w-7 h-7 text-center rounded-full bg-red-500">R</div>
+                <span>Dra. Rejane Prestes</span>
+              </div>
+              <div class="flex p-1 gap-1 text-orange-300">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+            </div>
+          </div>
+          <div class="fade-in-up flex flex-col gap-4 text-white p-4 bg-color1 rounded-lg mb-2">
+            <div>
+              "Eu estou adorando por ser um formato novo, diferente do tradicional que a gente viveu durante a faculdade"
+            </div>
+            <div class="flex justify justify-between">
+              <div class="flex gap-2">
+                <div class="w-7 h-7 text-center rounded-full bg-red-500">L</div>
+                <span>Dra. Luciana Gal</span>
+              </div>
+              <div class="flex p-1 gap-1 text-orange-300">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+            </div>
+          </div>
+          <div class="fade-in-up flex flex-col gap-4 text-white p-4 bg-color1 rounded-lg mb-2">
+            <div>
+              "Assim que eu soube da propagação desse curso, eu logo me inscrevi, porque eu acho que o formato que está sendo feito é um formato diferenciado. É diferente daquela coisa monótona, que fala só da teoria. Então é um curso realmente bem prático"
+            </div>
+            <div class="flex justify justify-between">
+              <div class="flex gap-2">
+                <div class="w-7 h-7 text-center rounded-full bg-red-500">L</div>
+                <span>Dra. Lara Sérvio</span>
+              </div>
+              <div class="flex p-1 gap-1 text-orange-300">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex justify-center">
+      <div class="lg:w-1/6">
+        <div class="flex justify-center">
+          <video playsinline controls>
+            <source src="./assets/img/video.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-color1 pt-10 lg:pb-10">
+  <div class="max-w-5xl mx-auto pt-10 pb-10">
+    <h1 class="lg:text-4xl text-3xl font-regular leading-none tracking-tight md:text-5xl xl:text-5xl text-white text-center mb-10">
+      Conheça nosso time de especialistas
+    </h1>
+    <div class="lg:flex lg:space-x-40 px-20 lg:p-0">
+      <div class="lg:mb-4 mb-16 fade-in-up">
+        <div class="flex justify-center">
+          <img class="rounded-full w-40" src="./assets/img/Dr. Alcinio.jpg" alt="Dr. Alcinio" />
+        </div>
+        <h1 class="mt-4 text-3xl font-regular text-center text-white">Dr. Alcino Sá</h1>
+        <p class="text-justify text-white">Cardiologista especialista em Hipertensão Arterial pelo Instituto Dante Pazzanese de Cardiologia.
+        </p>
+      </div>
+      <div class="lg:mb-4 mb-16 fade-in-up">
+        <div class="flex justify-center">
+          <img class="rounded-full w-40" src="./assets/img/Dr. Aécio.jpg" alt="Dr. Aécio" />
+        </div>
+        <h1 class="mt-4 text-3xl font-regular text-center text-white">Dr. Aécio Lira</h1>
+        <p class="text-justify text-white">Endocrinologista doutor em Diabetes pela Universidade de São Paulo
+        </p>
+      </div>
+      <div class="lg:mb-4 mb-16 fade-in-up">
+        <div class="flex justify-center">
+          <img class="rounded-full w-40" src="./assets/img/Dr. Jonatas.jpg" alt="Dr. Jonatas" />
+        </div>
+        <h1 class="mt-4 text-3xl font-regular text-center text-white">Dr. Jônatas Melo Neto</h1>
+        <p class="text-justify text-white">Cardiologista especialista em Arritmias pelo Instituto Dante Pazzanese de Cardiologia.
+        </p>
+      </div>
+    </div>
+  </div>
   </section>
   <section class="p-5 lg:py-16 lg:px-32 bg-gray-100">
     <div class="lg:flex lg:justify-center">

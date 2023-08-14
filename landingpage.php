@@ -2,7 +2,6 @@
 <html lang="pt-br">
 
 <head>
-  <link rel="canonical" href="https://https://demo.themesberg.com/landwind/" />
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,10 +18,10 @@
   <!-- Social media share -->
   <meta property="og:title" content="ACADEMIA ADH - ARRITMIA | DM | HAS">
   <meta property="og:site_name" content="ACADEMIA ADH - ARRITMIA | DM | HAS">
-  <meta property="og:url" content="#">
+  <meta property="og:url" content="https://academiaadh.com.br">
   <meta property="og:description" content="ACADEMIA ADH - ARRITMIA | DM | HAS">
   <meta property="og:type" content="">
-  <meta property="og:image" content="#">
+  <meta property="og:image" content="https://academiaadh.com.br/assets/img/logo1.png">
 
   <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favicon.png">
@@ -87,7 +86,7 @@
     <div class="lg:flex lg:justify-center">
       <div class="lg:w-2/2 flex pt-24">
         <div class="z-10">
-          <h3 style="text-shadow: 1px 1px white" class="fade-in-up mb-4 lg:text-4xl text-2xl font-bold text-grey-900 lg:mt-10 text-center">Prepare-se para uma jornada única e intensiva, onde você irá desenvolver seus conhecimentos na prevenção, tratamento e cuidado de diabetes e hipertensão
+          <h3 style="text-shadow: 1px 1px white" class="fade-in-up mb-4 lg:text-4xl text-2xl font-bold text-grey-900 lg:mt-10 text-center">Prepare-se para uma jornada incrível, onde você irá desenvolver seus conhecimentos na prevenção, diagnóstico e tratamento de diabetes e hipertensão com a visão de especialistas
           </h3>
           <div class="flex justify-center">
             <img src="./assets/img/logo1.png">
@@ -109,6 +108,78 @@
       </div>
     </div>
   </section>
+  <section class="bg-color1 pt-10 lg:pb-10">
+    <div class="max-w-5xl mx-auto p-5">
+      <h3 class="text-2xl lg:text-3xl text-white font-regular mb-10 ml-3 text-center">Veja os depoimentos de quem foi e como foi o último curso de Imersão em Diabetes e Hipertensão</h3>
+      <div class="flex flex-col gap-3 mt-14">
+        <div class="lg:grid lg:grid-cols-2 gap-8">
+          <div class="fade-in-up flex flex-col gap-4 bg-gray-700 p-4 bg-white rounded-lg mb-2">
+            <div class="flex justify justify-between">
+              <div class="flex gap-2">
+                <div class="w-7 h-7 text-center rounded-full bg-red-500">R</div>
+                <span>Rejane Prestes</span>
+              </div>
+              <div class="flex p-1 gap-1 text-orange-300">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+            </div>
+            <div>
+              É um curso prático que te atualiza e que serve muito na conduta do consultório
+            </div>
+          </div>
+          <div class="fade-in-up flex flex-col gap-4 bg-gray-700 p-4 bg-white rounded-lg mb-2">
+            <div class="flex justify justify-between">
+              <div class="flex gap-2">
+                <div class="w-7 h-7 text-center rounded-full bg-red-500">L</div>
+                <span>Luciana Gal</span>
+              </div>
+              <div class="flex p-1 gap-1 text-orange-300">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+            </div>
+            <div>
+              Eu estou adorando por ser um formato novo, diferente do tradicional que a gente viveu durante a faculdade
+            </div>
+          </div>
+          <div class="fade-in-up flex flex-col gap-4 bg-gray-700 p-4 bg-white rounded-lg mb-2">
+            <div class="flex justify justify-between">
+              <div class="flex gap-2">
+                <div class="w-7 h-7 text-center rounded-full bg-red-500">L</div>
+                <span>Lara Sérvio</span>
+              </div>
+              <div class="flex p-1 gap-1 text-orange-300">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+            </div>
+            <div>
+              Assim que eu soube da propagação desse curso, eu logo me inscrevi, porque eu acho que o formato que está sendo feito é um formato diferenciado. É diferente daquela coisa monótona, que fala só da teoria. Então é um curso realmente bem prático
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex justify-center">
+      <div class="lg:w-1/6">
+        <div class="flex justify-center">
+          <video playsinline controls>
+            <source src="./assets/img/video.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </section>
   <section class="max-w-5xl mx-auto pt-10 pb-10">
     <h1 class="lg:text-4xl text-3xl font-regular leading-none tracking-tight md:text-5xl xl:text-5xl text-color1 text-center mb-10">
       Conheça nosso time
@@ -126,7 +197,7 @@
         <div class="flex justify-center">
           <img class="rounded-full w-40" src="./assets/img/Dr. Aécio.jpg" alt="Dr. Aécio" />
         </div>
-        <h1 class="mt-4 text-3xl font-regular text-center text-color1">Dr. Jonatas</h1>
+        <h1 class="mt-4 text-3xl font-regular text-center text-color1">Dr. Aécio Lira</h1>
         <p class="text-justify">Endocrinologista doutor em Diabetes pela Universidade de São Paulo
         </p>
       </div>
@@ -142,7 +213,7 @@
   </section>
   <section class="bg-color1 p-5 lg:p-0">
     <div class="max-w-5xl mx-auto pt-10 pb-4">
-      <h3 class="text-2xl lg:text-3xl text-white font-regular mb-10 ml-3 text-center">Veja tudo que nossa imersão oferece para seu crescimento</h3>
+      <h3 class="text-2xl lg:text-3xl text-white font-regular mb-10 ml-3 text-center">O que você vai adquirir</h3>
       <div class="flex justify-center">
 
         <ol>
@@ -155,9 +226,24 @@
               </div>
               <div class="block p-6 rounded-lg shadow-lg bg-gray-100 max-w-md ml-6 mb-10">
                 <div class="flex justify-between mb-4">
-                  <a href="#!" class="font-medium text-color1 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">Domínio Profundo</a>
+                  <a href="#!" class="font-medium text-color1 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">Conhecimento e Segurança</a>
                 </div>
-                <p class="text-gray-700 mb-6"> Explore as últimas tendências, pesquisas e abordagens inovadoras, elevando seu conhecimento a níveis de excelência.</p>
+                <p class="text-gray-700 mb-6">Explore as últimas tendências, pesquisas e abordagens inovadoras e adquira conhecimento útil, tendo segurança no diagnóstico e tratamento em Diabetes e Hipertensão.</p>
+              </div>
+            </div>
+          </li>
+          <li class="border-l-2 border-color2 fade-in-up">
+            <div class="md:flex flex-start">
+              <div class="bg-color2 w-6 h-6 flex items-center justify-center rounded-full -ml-3.5">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" class="text-white w-3 h-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                  <path fill="currentColor" d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm64-192c0-8.8 7.2-16 16-16h288c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16v-64zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"></path>
+                </svg>
+              </div>
+              <div class="block p-6 rounded-lg shadow-lg bg-gray-100 max-w-md ml-6 mb-10">
+                <div class="flex justify-between mb-4">
+                  <a href="#!" class="font-medium text-color1 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">Método ADH</a>
+                </div>
+                <p class="text-gray-700 mb-6">Aprendizado dinâmico e uma metodologia inovadora: O método ADH – uma incrível visão prática e moderna, com atores em casos clínicos reais e interações estimulantes para aplicar seus novos conhecimentos imediatamente</p>
               </div>
             </div>
           </li>
@@ -172,7 +258,7 @@
                 <div class="flex justify-between mb-4">
                   <a href="#!" class="font-medium text-color1 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">Progressão na Carreira</a>
                 </div>
-                <p class="text-gray-700 mb-6">Abra portas para oportunidades de destaque, com expertise valorizada no mercado e reconhecimento como referência na área</p>
+                <p class="text-gray-700 mb-6">Abra portas para novas oportunidades, com expertise valorizada no mercado e reconhecimento como referência na área</p>
               </div>
             </div>
           </li>
@@ -185,24 +271,9 @@
               </div>
               <div class="block p-6 rounded-lg shadow-lg bg-gray-100 max-w-md ml-6 mb-10">
                 <div class="flex justify-between mb-4">
-                  <a href="#!" class="font-medium text-color1 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm"> Atendimento Excepcional</a>
+                  <a href="#!" class="font-medium text-color1 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">Atendimento excepcional</a>
                 </div>
-                <p class="text-gray-700 mb-6">Aprimore suas habilidades de cuidado e orientação, proporcionando resultados transformadores para seus pacientes, fortalecendo relacionamentos e construindo confiança.</p>
-              </div>
-            </div>
-          </li>
-          <li class="border-l-2 border-color2 fade-in-up">
-            <div class="md:flex flex-start">
-              <div class="bg-color2 w-6 h-6 flex items-center justify-center rounded-full -ml-3.5">
-                <svg aria-hidden="true" focusable="false" data-prefix="fas" class="text-white w-3 h-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                  <path fill="currentColor" d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm64-192c0-8.8 7.2-16 16-16h288c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16v-64zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"></path>
-                </svg>
-              </div>
-              <div class="block p-6 rounded-lg shadow-lg bg-gray-100 max-w-md ml-6 mb-10">
-                <div class="flex justify-between mb-4">
-                  <a href="#!" class="font-medium text-color1 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm"> Networking Poderoso</a>
-                </div>
-                <p class="text-gray-700 mb-6">Conecte-se com colegas inspiradores e líderes influentes, ampliando sua rede de contatos e colaborações.</p>
+                <p class="text-gray-700 mb-6">Aprimore suas habilidades de cuidado e orientação, proporcionando resultados transformadores para seus pacientes, fortalecendo relacionamentos e construindo confiança</p>
               </div>
             </div>
           </li>
@@ -216,16 +287,16 @@
               </div>
               <div class="block p-6 rounded-lg shadow-lg bg-gray-100 max-w-md ml-6 mb-10">
                 <div class="flex justify-between mb-4">
-                  <a href="#!" class="font-medium text-color1 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm"> Aprendizado Dinâmico</a>
+                  <a href="#!" class="font-medium text-color1 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">Network poderoso</a>
                 </div>
-                <p class="text-gray-700 mb-6">Workshops práticos, estudos de caso reais e interações estimulantes para aplicar conhecimentos imediatamente.
+                <p class="text-gray-700 mb-6">Conecte-se com colegas inspiradores e líderes influentes, ampliando sua rede de contatos e colaborações
                 </p>
               </div>
             </div>
           </li>
         </ol>
       </div>
-      <h3 class="text-lg lg:text-xl text-white font-regular lg:mb-10 mb-2 ml-3 text-justify pt-10"> Não perca a oportunidade de impulsionar sua carreira e causar um impacto positivo duradouro na saúde daqueles que atende. Junte-se a nós na Imersão em Diabetes e Hipertensão e trilhe o caminho para o sucesso profissional e cuidado excepcional.</h3>
+      <h3 class="text-lg lg:text-xl text-white font-regular lg:mb-10 mb-2 ml-3 text-justify pt-10">Não perca a oportunidade de impulsionar sua carreira e causar um impacto positivo duradouro na saúde daqueles que atende. Junte-se a nós na Imersão em Diabetes e Hipertensão e torne seu atendimento excepcional e trilhe o caminho para o sucesso profissional</h3>
     </div>
     <div class="flex justify-center">
       <a href="#price">
@@ -243,21 +314,21 @@
   <section class="p-5 lg:py-16 lg:px-32 bg-gray-100">
     <div class="lg:flex lg:justify-center">
       <div class="lg:w-2/2">
-        <p class="font-bold text-color1 mb-10 text-3xl text-center">A profissionalização é o único caminho.</p>
-        <p class="font-normal text-color1 mb-16 text-xl text-center">Não importa seu tempo de estudo ou experiência <br> <span class="text-color1 font-bold text-xl"> Aqui é o lugar perfeito para você ter ainda mais resultados.</span>
+        <p class="font-bold text-color1 mb-10 text-3xl text-center">Aprimoramento e inovação chaves para o sucesso profissional</p>
+        <p class="font-normal text-color1 mb-16 text-xl text-center">Não importa seu tempo de estudo ou experiência <br> <span class="text-color1 font-bold text-xl">Aqui é o lugar perfeito para você ter ainda mais resultados.</span>
         </p>
         <div class="items-center gap-8 lg:grid lg:grid-cols-3 xl:gap-8 text-white">
           <div class="border-t-4 border-b-4 border-color1 rounded-lg px-5 py-5 m-2">
             <h1 class="text-color1 pt-4 font-bold text-2xl pb-2">Se é estudante,</h1>
-            <p class="text-lx text-color1">vai aprender fundamentos médicos, habilidades clínicas, comunicação empática e preparação para estágios e residências;</p>
+            <p class="text-lx text-color1">Vai aprender fundamentos, habilidades clínicas, comunicação empática e preparação para estágios e residências</p>
           </div>
           <div class="border-t-4 border-b-4 border-color1 rounded-lg px-5 py-5 m-2">
-            <h1 class="text-color1 pt-4 font-bold text-2xl pb-2">Se é médico,</h1>
-            <p class="text-lx text-color1">vai aprender novas formas de aprimorar seu trabalho, proporcionando um atendimento ainda mais eficiente para valorizar seus serviços;</p>
+            <h1 class="text-color1 pt-4 font-bold text-2xl pb-2">Se é residente,</h1>
+            <p class="text-lx text-color1">Vai aprender novas formas de aprimorar seu trabalho, proporcionando um atendimento ainda mais eficiente para valorizar seus serviços</p>
           </div>
           <div class="border-t-4 border-b-4 border-color1 rounded-lg px-5 py-5 m-2">
-            <h1 class="text-color1 pt-4 font-bold text-2xl pb-2">Se é Mestre,</h1>
-            <p class="text-lx text-color1">vai ampliar seu networking, fazer parcerias e conecte-se com especialistas renomados, atualizando-se com práticas inovadoras;</p>
+            <h1 class="text-color1 pt-4 font-bold text-2xl pb-2">Se já é especialista ou profissional de saúde,</h1>
+            <p class="text-lx text-color1">Vai ampliar seu networking, fazer parcerias e conecte-se com outros profissionais e atualize-se com práticas inovadoras</p>
           </div>
         </div>
       </div>
@@ -282,7 +353,7 @@
       </div>
     </div>
   </div>
-  <section class="max-w-5xl mx-auto pt-10 pb-10">
+  <!-- <section class="max-w-5xl mx-auto pt-10 pb-10">
     <div class="grid grid-cols-2 gap-8">
       <div class="flex items-center pt-10">
         <img class="w-40" src="./assets/img/git_adh.gif">
@@ -307,7 +378,7 @@
         </form>
       </div>
     </div>
-  </section>
+  </section> -->
   <div class="bg-color1">
     <div class="container m-auto px-6 py-10 md:px-12 lg:px-20">
       <div class="m-auto text-center lg:w-8/12 xl:w-7/12">

@@ -1,10 +1,13 @@
 <footer class="bg-color1">
   <div class="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
+    <div class="flex justify-center">
+      <img class="w-57" src="./assets/img/logobranca1.png">
+    </div>
     <div class="text-center">
-      <span class="block text-sm text-center text-white">© 2021-2022 Academia ADH. Todos os direitos
+      <span class="block text-sm text-center text-white">© 2023 Academia ADH. Todos os direitos
         Reservados</a>.
       </span>
-      <ul class="flex justify-center mt-5 space-x-5">
+      <!-- <ul class="flex justify-center mt-5 space-x-5">
         <li>
           <a href="#" class="text-white hover:text-white">
             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -40,7 +43,7 @@
             </svg>
           </a>
         </li>
-      </ul>
+      </ul> -->
     </div>
   </div>
 </footer>

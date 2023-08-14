@@ -49,59 +49,195 @@
       transform: translateY(0);
     }
   </style>
+  <!-- Meta Pixel Code -->
+  <script>
+    ! function(f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function() {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '532153315653562');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=532153315653562&ev=PageView&noscript=1" /></noscript>
+  <!-- End Meta Pixel Code -->
 </head>
 
 <body>
-  <section class="px-5 lg:px-32 lg:pb-40" style="background: rgb(65,43,108);
-background: linear-gradient(0deg, rgba(65,43,108,1) 0%, rgba(65,43,108,1) 25%, rgba(255,255,255,1) 100%);">
+  <section class="px-5 lg:px-32 lg:pb-20" style="">
     <div class='loading-container relative'>
-      <div class='loading h-2 w-[0%] bg-green-500 transition-all duration-200 absolute z-40 top-0'></div>
+      <div class='loading h-3 w-[0%] bg-color2 transition-all duration-200 absolute z-40 top-0'></div>
       <div class="flex justify-center">
-        <span class="progress-text absolute top-2"></span>
+        <span class="progress-text absolute top-3"></span>
       </div>
     </div>
     <div class="lg:flex lg:justify-center">
-      <div class="absolute lg:top-0 top-10 z-0">
-        <img src="./assets/img/git_adh.gif" alt="ADH" />
-      </div>
       <div class="lg:w-2/2 flex pt-24">
         <div class="z-10">
-          <h3 style="text-shadow: 1px 1px white" class="fade-in-up mb-4 lg:text-4xl text-3xl font-bold lg:mt-10 text-center">Como diagnosticar seu paciente com confiança e eficiencia em casos de diabete e hipertesao
+          <h3 style="text-shadow: 1px 1px white" class="fade-in-up mb-4 lg:text-4xl text-2xl font-bold text-grey-900 lg:mt-10 text-center">Prepare-se para uma jornada única e intensiva, onde você irá desenvolver seus conhecimentos na prevenção, tratamento e cuidado de diabetes e hipertensão
           </h3>
+          <div class="flex justify-center">
+            <img src="./assets/img/logo1.png">
+          </div>
           <a href="#price">
-            <button class="my-5 w-full lg:mt-20 relative bg-green-500 hover:bg-blue-600 text-white font-semibold py-5 px-4 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400 transition duration-300">
+            <button class="my-5 w-full lg:mt-5 relative bg-color2 hover:bg-color1 text-white font-semibold py-5 px-4 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400 transition duration-300">
               <span class="animate-bounce absolute inset-x-0 bottom-0 text-center">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mx-auto text-white" viewBox="0 0 20 20" fill="currentColor">
                   <path fill-rule="evenodd" d="M6.293 7.293a1 1 0 011.414 0L10 9.586l2.293-2.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd" />
                 </svg>
               </span>
-              GARANTIR MINHA VAGA
+              GARANTIR MINHA VAGA AGORA!
             </button>
           </a>
-          <p class="text-center text-white lg:mb-32 mb-10 text-md">
+          <p class="text-center text-black mb-10 text-md">
             Nos dia 2 de setembro <span class="text-color2 text-xs"> EM </span> Teresina
           </p>
         </div>
       </div>
     </div>
   </section>
-  <section class="max-w-5xl mx-auto pt-10 pb-4">
-    <h1 class="lg:text-4xl text-3xl font-bold leading-none tracking-tight md:text-5xl xl:text-5xl text-center mb-4">
+  <section class="max-w-5xl mx-auto pt-10 pb-10">
+    <h1 class="lg:text-4xl text-3xl font-regular leading-none tracking-tight md:text-5xl xl:text-5xl text-color1 text-center mb-10">
       Conheça nosso time
     </h1>
     <div class="lg:flex lg:space-x-40 px-20 lg:p-0">
       <div class="lg:mb-4 mb-16 fade-in-up">
-        <img class="rounded-full" src="./assets/img/Dr. Alcinio.jpg" alt="Dr. Alcinio" />
-        <h1 class="mt-4 text-3xl font-bold text-center">Dr. Alcino Sá</h1>
+        <div class="flex justify-center">
+          <img class="rounded-full w-40" src="./assets/img/Dr. Alcinio.jpg" alt="Dr. Alcinio" />
+        </div>
+        <h1 class="mt-4 text-3xl font-regular text-center text-color1">Dr. Alcino Sá</h1>
+        <p class="text-justify">Cardiologista especialista em Hipertensão Arterial pelo Instituto Dante Pazzanese de Cardiologia.
+        </p>
       </div>
       <div class="lg:mb-4 mb-16 fade-in-up">
-        <img class="rounded-full" src="./assets/img/Dr. Aécio.jpg" alt="Dr. Aécio" />
-        <h1 class="mt-4 text-3xl font-bold text-center">Dr. Aécio</h1>
+        <div class="flex justify-center">
+          <img class="rounded-full w-40" src="./assets/img/Dr. Aécio.jpg" alt="Dr. Aécio" />
+        </div>
+        <h1 class="mt-4 text-3xl font-regular text-center text-color1">Dr. Jonatas</h1>
+        <p class="text-justify">Endocrinologista doutor em Diabetes pela Universidade de São Paulo
+        </p>
       </div>
       <div class="lg:mb-4 mb-16 fade-in-up">
-        <img class="rounded-full" src="./assets/img/Dr. Jonatas.jpg" alt="Dr. Jonatas" />
-        <h1 class="mt-4 text-3xl font-bold text-center">Dr. Jonatas</h1>
+        <div class="flex justify-center">
+          <img class="rounded-full w-40" src="./assets/img/Dr. Jonatas.jpg" alt="Dr. Jonatas" />
+        </div>
+        <h1 class="mt-4 text-3xl font-regular text-center text-color1">Dr. Jonatas</h1>
+        <p class="text-justify">Cardiologista especialista em Arritmias pelo Instituto Dante Pazzanese de Cardiologia.
+        </p>
       </div>
+    </div>
+  </section>
+  <section class="bg-color1 p-5 lg:p-0">
+    <div class="max-w-5xl mx-auto pt-10 pb-4">
+      <h3 class="text-2xl lg:text-3xl text-white font-regular mb-10 ml-3 text-center">Veja tudo que nossa imersão oferece para seu crescimento</h3>
+      <div class="flex justify-center">
+
+        <ol>
+          <li class="border-l-2 border-color2 fade-in-up">
+            <div class="md:flex flex-start">
+              <div class="bg-color2 w-6 h-6 flex items-center justify-center rounded-full -ml-3.5">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" class="text-white w-3 h-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                  <path fill="currentColor" d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm64-192c0-8.8 7.2-16 16-16h288c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16v-64zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"></path>
+                </svg>
+              </div>
+              <div class="block p-6 rounded-lg shadow-lg bg-gray-100 max-w-md ml-6 mb-10">
+                <div class="flex justify-between mb-4">
+                  <a href="#!" class="font-medium text-color1 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">Domínio Profundo</a>
+                </div>
+                <p class="text-gray-700 mb-6"> Explore as últimas tendências, pesquisas e abordagens inovadoras, elevando seu conhecimento a níveis de excelência.</p>
+              </div>
+            </div>
+          </li>
+          <li class="border-l-2 border-color2 fade-in-up">
+            <div class="md:flex flex-start">
+              <div class="bg-color2 w-6 h-6 flex items-center justify-center rounded-full -ml-3.5">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" class="text-white w-3 h-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                  <path fill="currentColor" d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm64-192c0-8.8 7.2-16 16-16h288c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16v-64zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"></path>
+                </svg>
+              </div>
+              <div class="block p-6 rounded-lg shadow-lg bg-gray-100 max-w-md ml-6 mb-10">
+                <div class="flex justify-between mb-4">
+                  <a href="#!" class="font-medium text-color1 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">Progressão na Carreira</a>
+                </div>
+                <p class="text-gray-700 mb-6">Abra portas para oportunidades de destaque, com expertise valorizada no mercado e reconhecimento como referência na área</p>
+              </div>
+            </div>
+          </li>
+          <li class="border-l-2 border-color2 fade-in-up">
+            <div class="md:flex flex-start">
+              <div class="bg-color2 w-6 h-6 flex items-center justify-center rounded-full -ml-3.5">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" class="text-white w-3 h-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                  <path fill="currentColor" d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm64-192c0-8.8 7.2-16 16-16h288c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16v-64zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"></path>
+                </svg>
+              </div>
+              <div class="block p-6 rounded-lg shadow-lg bg-gray-100 max-w-md ml-6 mb-10">
+                <div class="flex justify-between mb-4">
+                  <a href="#!" class="font-medium text-color1 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm"> Atendimento Excepcional</a>
+                </div>
+                <p class="text-gray-700 mb-6">Aprimore suas habilidades de cuidado e orientação, proporcionando resultados transformadores para seus pacientes, fortalecendo relacionamentos e construindo confiança.</p>
+              </div>
+            </div>
+          </li>
+          <li class="border-l-2 border-color2 fade-in-up">
+            <div class="md:flex flex-start">
+              <div class="bg-color2 w-6 h-6 flex items-center justify-center rounded-full -ml-3.5">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" class="text-white w-3 h-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                  <path fill="currentColor" d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm64-192c0-8.8 7.2-16 16-16h288c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16v-64zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"></path>
+                </svg>
+              </div>
+              <div class="block p-6 rounded-lg shadow-lg bg-gray-100 max-w-md ml-6 mb-10">
+                <div class="flex justify-between mb-4">
+                  <a href="#!" class="font-medium text-color1 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm"> Networking Poderoso</a>
+                </div>
+                <p class="text-gray-700 mb-6">Conecte-se com colegas inspiradores e líderes influentes, ampliando sua rede de contatos e colaborações.</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="border-l-2 border-color2 fade-in-up">
+            <div class="md:flex flex-start">
+              <div class="bg-color2 w-6 h-6 flex items-center justify-center rounded-full -ml-3.5">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" class="text-white w-3 h-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                  <path fill="currentColor" d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm64-192c0-8.8 7.2-16 16-16h288c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16v-64zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"></path>
+                </svg>
+              </div>
+              <div class="block p-6 rounded-lg shadow-lg bg-gray-100 max-w-md ml-6 mb-10">
+                <div class="flex justify-between mb-4">
+                  <a href="#!" class="font-medium text-color1 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm"> Aprendizado Dinâmico</a>
+                </div>
+                <p class="text-gray-700 mb-6">Workshops práticos, estudos de caso reais e interações estimulantes para aplicar conhecimentos imediatamente.
+                </p>
+              </div>
+            </div>
+          </li>
+        </ol>
+      </div>
+      <h3 class="text-lg lg:text-xl text-white font-regular lg:mb-10 mb-2 ml-3 text-justify pt-10"> Não perca a oportunidade de impulsionar sua carreira e causar um impacto positivo duradouro na saúde daqueles que atende. Junte-se a nós na Imersão em Diabetes e Hipertensão e trilhe o caminho para o sucesso profissional e cuidado excepcional.</h3>
+    </div>
+    <div class="flex justify-center">
+      <a href="#price">
+        <button class="my-5 lg:w-96 w-full lg:mt-5 relative bg-color2 hover:bg-yellow-900 text-white font-semibold py-5 px-4 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400 transition duration-300">
+          <span class="animate-bounce absolute inset-x-0 bottom-0 text-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mx-auto text-white" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M6.293 7.293a1 1 0 011.414 0L10 9.586l2.293-2.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
+          </span>
+          GARANTIR MINHA VAGA AGORA!
+        </button>
+      </a>
     </div>
   </section>
   <section class="p-5 lg:py-16 lg:px-32 bg-gray-100">
@@ -139,16 +275,40 @@ background: linear-gradient(0deg, rgba(65,43,108,1) 0%, rgba(65,43,108,1) 25%, r
           <p class="text-white font-bold"> no</p>
           <h2 class="font-semibold text-3xl text-white">Hotel Uchôa</h2>
           <p class="text-base font-medium text-white">Teresina</p>
-          <div class="flex justify-end">
-            <img class="mt-5 w-52" src="./assets/img/logo2.png" width="500px" alt="ADH" />
+          <div class="flex justify-center lg:justify-end">
+            <img class="w-57" src="./assets/img/logobranca1.png">
           </div>
         </div>
       </div>
     </div>
   </div>
-
-  <!-- component -->
-  <div class="bg-gradient-to-b from-blue-100 to-blue-200">
+  <section class="max-w-5xl mx-auto pt-10 pb-10">
+    <div class="grid grid-cols-2 gap-8">
+      <div class="flex items-center pt-10">
+        <img class="w-40" src="./assets/img/git_adh.gif">
+        <p class="text-xl text-justify text-color1 font-semibold">No dia 2 de setembro de 2023, às 8:00 no hotel Uchôa te esperamos para um dia inteiro de puro conteúdo pra você alcançar o sucesso</p>
+      </div>
+      <div>
+        <h3 class="mb-4 text-xl font-bold lg:mt-10 text-center text-black text-color1">MAIS INFORMAÇÕES!
+        </h3>
+        <form action="./config/api/create_lead.php" method="post">
+          <input name="name" type="text" id="name" placeholder="Nome Completo" class="mb-3 w-full mr-5 border-none bg-gray-50 focus:border-blue-500 ring-2 ring-blue-900 focus-ring-2 ring-blue-500 ring-opacity-20 rounded-md px-3 py-2 text-sm text-gray-800 placeholder-gray-600 outline-none transition duration-400 ease-in-out">
+          <div>
+            <input name="email" type="text" id="email" placeholder="Email" class="mb-3 w-full mr-5 border-none bg-gray-50 focus:border-blue-500 ring-2 ring-blue-900 focus-ring-2 ring-blue-500 ring-opacity-20 rounded-md px-3 py-2 text-sm text-gray-800 placeholder-gray-600 outline-none transition duration-400 ease-in-out">
+          </div>
+          <div>
+            <input name="whatsapp" type="number" id="whatsapp" placeholder="Whatsapp" class="mb-3 w-full mr-5 border-none bg-gray-50 focus:border-blue-500 ring-2 ring-blue-900 focus-ring-2 ring-blue-500 ring-opacity-20 rounded-md px-3 py-2 text-sm text-gray-800 placeholder-gray-600 outline-none transition duration-400 ease-in-out">
+          </div>
+          <div class="pt-2">
+            <button type="submit" class="font-semibold bg-color1 p-2 rounded-lg w-full">
+              <span class="text-white">Enviar contato</span>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <div class="bg-color1">
     <div class="container m-auto px-6 py-10 md:px-12 lg:px-20">
       <div class="m-auto text-center lg:w-8/12 xl:w-7/12">
         <h2 class="text-2xl text-color1 font-bold md:text-4xl">Garanta já agora sua oportunidade</h2>
@@ -169,11 +329,11 @@ background: linear-gradient(0deg, rgba(65,43,108,1) 0%, rgba(65,43,108,1) 25%, r
             </div>
             <ul role="list" class="w-max space-y-4 py-6 m-auto text-gray-600">
               <li class="space-x-2">
-                <span class="text-green-500 font-semibold">&check;</span>
+                <span class="text-color1 font-semibold">&check;</span>
                 <span>Compra segura</span>
               </li>
               <li class="space-x-2">
-                <span class="text-green-500 font-semibold">&check;</span>
+                <span class="text-color1 font-semibold">&check;</span>
                 <span>Pix, Boleto e Cartão de crédito</span>
               </li>
             </ul>
@@ -183,12 +343,12 @@ background: linear-gradient(0deg, rgba(65,43,108,1) 0%, rgba(65,43,108,1) 25%, r
                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6" viewBox="0 0 16 16">
                   <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
                 </svg>
-                <span class="font-semibold">(86) 000 000</span>
+                <span class="font-semibold">(86) 995213702</span>
               </a>
             </p>
-            <button type="submit" title="Submit" class="block w-full py-3 px-6 text-center rounded-xl transition bg-color1 hover:bg-purple-700 active:bg-purple-800 focus:bg-indigo-600">
+            <button type="submit" title="Submit" class="block w-full py-3 px-6 text-center rounded-xl transition bg-color2 hover:bg-yellow-800 active:bg-purple-800 focus:bg-indigo-600">
               <span class="text-white font-semibold">
-                Comprar agora
+                GARANTIR MINHA VAGA AGORA!
               </span>
             </button>
           </div>

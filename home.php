@@ -27,10 +27,10 @@ $products = getCursos();
   <!-- Social media share -->
   <meta property="og:title" content="ACADEMIA ADH - ARRITMIA | DM | HAS">
   <meta property="og:site_name" content="ACADEMIA ADH - ARRITMIA | DM | HAS">
-  <meta property="og:url" content="#">
+  <meta property="og:url" content="https://academiaadh.com.br">
   <meta property="og:description" content="ACADEMIA ADH - ARRITMIA | DM | HAS">
   <meta property="og:type" content="">
-  <meta property="og:image" content="#">
+  <meta property="og:image" content="https://academiaadh.com.br/assets/img/logo1.png">
 
   <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favicon.png">
